@@ -1,0 +1,39 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: blue;
+  padding: 1rem;
+}
+
+.header > select {
+  width: 100%;
+  height: min-content;
+  padding: 2px;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.header > label {
+  color: white;
+  font-size: 1rem;
+  display: block;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 0 16px;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.warning {
+  color: red;
+}
